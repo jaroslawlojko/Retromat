@@ -255,7 +255,7 @@ var PHASE_ID_TAG = 'phase';
         <div class="header__leftblock">
                 <div class="header__logo">
                     <a href="<?php echo(get_url_to_index()) ?>" class="header__logo">
-                        <img src="static/images/retromat-logo.svg"
+                        <img src="/static/images/retromat-logo.svg"
                      alt="Retromat"
                      title="Retromat">
                     </a>
@@ -279,7 +279,7 @@ var PHASE_ID_TAG = 'phase';
                     <option value="fr" <?php echo(print_if_selected("fr", $lang)); ?> >Fran&ccedil;ais (64 activit&eacute;s)</option>
                     <option value="nl" <?php echo(print_if_selected("nl", $lang)); ?> >Nederlands (101 activiteiten)</option>
                     <option value="ru" <?php echo(print_if_selected("ru", $lang)); ?> >Русский (133 упражнений)</option>
-                <option value="zh" <?php echo(print_if_selected("zh", $lang)); ?> >中文 (129 活动)</option>
+                    <option value="zh" <?php echo(print_if_selected("zh", $lang)); ?> >中文 (129 活动)</option>
                 </select>
             </div>
         </div>
@@ -317,7 +317,7 @@ var PHASE_ID_TAG = 'phase';
                     </div>
 
                     <?php if (is_output_format_twig($argv)) { ?>
-                    {% include 'home/header/idDisplay.html.twig' %}
+                        {% include 'home/header/idDisplay.html.twig' %}
                     <?php } else { ?>
                         <?php echo($_lang['INDEX_PLAN_ID']); ?>
                         <form name="js_ids-display__form" class="ids-display__form" action="JavaScript:publish_plan($('.ids-display__input').val());">
@@ -352,7 +352,7 @@ var PHASE_ID_TAG = 'phase';
 
                     <div class="plan-header-promo">
                         <a href="/en/books" target="_blank">
-                            <img src="static/images/sponsors/ebook-retromat-sponsor.png" width="178" height="95" alt="Did you know there's are Retromat eBooks?">
+                            <img src="/static/images/sponsors/ebook-retromat-sponsor.png" width="178" height="95" alt="Did you know there's are Retromat eBooks?">
                         </a>
                     </div>
                 </div>
@@ -389,25 +389,6 @@ var PHASE_ID_TAG = 'phase';
             </div>
         </div>
     </div><!-- END plan -->
-    <?php } ?>
-
-
-
-    <?php if (is_output_format_twig($argv)) { ?>
-        {% include 'home/activities/activities.html.twig' %}
-    <?php } else { ?>
-        <div class="js_plan">
-            <div class="activity_block bg1">
-                <div class="activity-wrapper">
-                    <div class="activity-content">
-                        <?php echo($_lang['INDEX_LOADING']); ?>
-                        <noscript>
-                            <?php echo($_lang['ERROR_NO_SCRIPT']); ?>
-                        </noscript>
-                    </div>
-                </div>
-            </div>
-        </div><!-- END plan -->
     <?php } ?>
 
     <div class="js_activity_block_template js_activity_block display_none">
@@ -473,7 +454,7 @@ var PHASE_ID_TAG = 'phase';
         <div class="content">
             <div class="inner">
             <?php if (!$isEnglish) { ?>
-            <?php for($i=0; $i < count($_lang['INDEX_TEAM_TRANSLATOR_LINK']); $i++) { ?>
+                <?php for($i=0; $i < count($_lang['INDEX_TEAM_TRANSLATOR_LINK']); $i++) { ?>
                 <div>
                     <a href="<?php echo($_lang['INDEX_TEAM_TRANSLATOR_LINK'][$i]); ?>">
                         <img src="<?php echo($_lang['INDEX_TEAM_TRANSLATOR_IMAGE'][$i]); ?>" width="70" height="93" title="<?php echo($_lang['INDEX_TEAM_TRANSLATOR_NAME'][$i]); ?>" class="team-photo">
@@ -490,12 +471,12 @@ var PHASE_ID_TAG = 'phase';
                         <?php echo($_lang['INDEX_TEAM_TRANSLATOR_TEXT'][$i]); ?>
                     </div>
                 </div><!-- .team--translator -->
-            <?php } ?>
+               <?php } ?>
             <?php } ?>
 
                 <div>
                     <a href="https://www.corinnabaldauf.de/">
-                       <img src="static/images/team/corinna_baldauf.jpg" width="70" height="93" title="Corinna Baldauf" class="team-photo">
+                       <img src="/static/images/team/corinna_baldauf.jpg" width="70" height="93" title="Corinna Baldauf" class="team-photo">
                     </a>
                     <h3>
                         <?php echo($_lang['INDEX_TEAM_CORINNA_TITLE']); ?> 
@@ -510,7 +491,7 @@ var PHASE_ID_TAG = 'phase';
 
                 <div>
                     <a href="/en/team/timon">
-                        <img src="static/images/team/timon_fiddike.jpg" width="70" height="93" title="Timon Fiddike" class="team-photo">
+                        <img src="/static/images/team/timon_fiddike.jpg" width="70" height="93" title="Timon Fiddike" class="team-photo">
                     </a>
                     <h3>
                         <?php echo($_lang['INDEX_TEAM_TIMON_TITLE']); ?> 
