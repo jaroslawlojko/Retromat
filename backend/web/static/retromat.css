@@ -444,6 +444,10 @@ display: none;
         background: rgb(0, 20, 13);
     }
 
+    .team-member {
+        clear: both;
+    }
+
     .team h3 {
         margin-bottom: 10px;
         font-weight: normal;

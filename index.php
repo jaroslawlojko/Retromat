@@ -455,7 +455,7 @@ var PHASE_ID_TAG = 'phase';
             <div class="inner">
             <?php if (!$isEnglish) { ?>
                 <?php for($i=0; $i < count($_lang['INDEX_TEAM_TRANSLATOR_LINK']); $i++) { ?>
-                <div>
+                <div class="team-member">
                     <a href="<?php echo($_lang['INDEX_TEAM_TRANSLATOR_LINK'][$i]); ?>">
                         <img src="<?php echo($_lang['INDEX_TEAM_TRANSLATOR_IMAGE'][$i]); ?>" width="70" height="93" title="<?php echo($_lang['INDEX_TEAM_TRANSLATOR_NAME'][$i]); ?>" class="team-photo">
                     </a>
@@ -474,7 +474,7 @@ var PHASE_ID_TAG = 'phase';
                <?php } ?>
             <?php } ?>
 
-                <div>
+                <div class="team-member">
                     <a href="https://www.corinnabaldauf.de/">
                        <img src="/static/images/team/corinna_baldauf.jpg" width="70" height="93" title="Corinna Baldauf" class="team-photo">
                     </a>
@@ -489,7 +489,7 @@ var PHASE_ID_TAG = 'phase';
                     </div>
                 </div><!-- .team--corinna -->
 
-                <div>
+                <div class="team-member">
                     <a href="/en/team/timon">
                         <img src="/static/images/team/timon_fiddike.jpg" width="70" height="93" title="Timon Fiddike" class="team-photo">
                     </a>
