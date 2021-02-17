@@ -253,36 +253,36 @@ var PHASE_ID_TAG = 'phase';
 
     <div class="header">
         <div class="header__leftblock">
-                <div class="header__logo">
-                    <a href="<?php echo(get_url_to_index()) ?>" class="header__logo">
-                        <img src="/static/images/retromat-logo.svg"
+            <div class="header__logo">
+                <a href="<?php echo(get_url_to_index()) ?>" class="header__logo">
+                    <img src="/static/images/retromat-logo.svg"
                      alt="Retromat"
                      title="Retromat">
-                    </a>
-                </div>
-
-                <div class="header__navi">
-                    <ul>
-                      <li><a href="/blog/">Blog</a></li>
-                      <li><a href="/en/books">Books</a></li>
-                      <li><a href="/en/membership">Membership</a></li>
-                      <li><a href="/en/about">About</a></li>
-                    </ul>
-                </div>
+                </a>
             </div>
 
-            <div class="header__languageswitcher"> 
-                <select onchange="switchLanguage(this.value)">
-                    <option value="de" <?php echo(print_if_selected("de", $lang)); ?> >Deutsch (140 Aktivit&auml;ten)</option>
-                    <option value="en" <?php echo(print_if_selected("en", $lang)); ?> >English (140 activities)</option>
-                    <option value="es" <?php echo(print_if_selected("es", $lang)); ?> >Espa&ntilde;ol (140 actividades)</option>
-                    <option value="fr" <?php echo(print_if_selected("fr", $lang)); ?> >Fran&ccedil;ais (64 activit&eacute;s)</option>
-                    <option value="nl" <?php echo(print_if_selected("nl", $lang)); ?> >Nederlands (101 activiteiten)</option>
-                    <option value="ru" <?php echo(print_if_selected("ru", $lang)); ?> >Русский (133 упражнений)</option>
-                    <option value="zh" <?php echo(print_if_selected("zh", $lang)); ?> >中文 (129 活动)</option>
-                </select>
+            <div class="header__navi">
+                <ul>
+                  <li><a href="/blog/">Blog</a></li>
+                  <li><a href="/en/books">Books</a></li>
+                  <li><a href="/en/membership">Membership</a></li>
+                  <li><a href="/en/about">About</a></li>
+                </ul>
             </div>
         </div>
+
+        <div class="header__languageswitcher"> 
+            <select onchange="switchLanguage(this.value)">
+                <option value="de" <?php echo(print_if_selected("de", $lang)); ?> >Deutsch (140 Aktivit&auml;ten)</option>
+                <option value="en" <?php echo(print_if_selected("en", $lang)); ?> >English (140 activities)</option>
+                <option value="es" <?php echo(print_if_selected("es", $lang)); ?> >Espa&ntilde;ol (140 actividades)</option>
+                <option value="fr" <?php echo(print_if_selected("fr", $lang)); ?> >Fran&ccedil;ais (64 activit&eacute;s)</option>
+                <option value="nl" <?php echo(print_if_selected("nl", $lang)); ?> >Nederlands (101 activiteiten)</option>
+                <option value="ru" <?php echo(print_if_selected("ru", $lang)); ?> >Русский (133 упражнений)</option>
+                <option value="zh" <?php echo(print_if_selected("zh", $lang)); ?> >中文 (129 活动)</option>
+            </select>
+        </div>
+    </div>
 
     <div class="pitch">
         <div class="content">
