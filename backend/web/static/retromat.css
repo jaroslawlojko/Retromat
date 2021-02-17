@@ -384,7 +384,8 @@ display: none;
     .promo,
     .promo a,
     .sponsor,
-    .sponsor a {
+    .sponsor a,
+    .about a {
         color: #002013;
     }
 
@@ -397,6 +398,9 @@ display: none;
         background-color: rgba(255,255,255,.40);
     }
 
+    .hidden {
+        visibility: hidden;
+    }
 
     .activity_content h2 {
         font-weight: bold;

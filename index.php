@@ -394,8 +394,8 @@ var PHASE_ID_TAG = 'phase';
     <div class="js_activity_block_template js_activity_block display_none">
         <div class="content">
             <div class="activity">
-                <div class="js_phase-stepper phase-stepper js_prev_button">
-                    <a href="javascript:Previous"
+                <div class="phase-stepper js_prev_button">
+                    <a href="javascript:Previous" class="js_phase-stepper"
                        title="<?php echo($_lang['ACTIVITY_PREV']) ?>">&#9668;
                     </a>
                 </div>
@@ -433,8 +433,8 @@ var PHASE_ID_TAG = 'phase';
                     </div><!-- END .js_photo_link -->
 
                 </div>
-                <div class="js_phase-stepper phase-stepper js_next_button">
-                    <a href="Javascript:Next"
+                <div class="phase-stepper js_next_button">
+                    <a href="Javascript:Next" class="js_phase-stepper"
                        title="<?php echo($_lang['ACTIVITY_NEXT']) ?>">&#9658;
                     </a>
                 </div>
