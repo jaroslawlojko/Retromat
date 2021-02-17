@@ -154,8 +154,7 @@
 
     .promo .content,
     .plan-header .content,
-    .plan-title .content,
-    .bg1 .content /* for js_plan Loading hint */ {
+    .plan-title .content {
         background: rgba(255, 255, 255, .35);
     }
 
