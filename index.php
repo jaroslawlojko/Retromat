@@ -52,7 +52,7 @@ function get_url_to_index() {
 ?>
 
 <!DOCTYPE html>
-<html>
+<html lang="<?php echo $lang ?>">
 <head>
 <?php if (is_output_format_twig($argv)) { ?>
     {% if title is not empty %}
