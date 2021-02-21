@@ -495,7 +495,8 @@
     }
 
     .page .listing h2 {
-        font-size: 1.5rem;
+        font-size: 1.6rem;
+        font-weight: normal;
         margin-top: 1rem; 
         text-align: center;
     }
@@ -512,7 +513,7 @@
     }
 
     .page .faq h3 {
-        font-weight: bold;
+        font-weight: normal;
         font-size: 1.2em;
     }
 
