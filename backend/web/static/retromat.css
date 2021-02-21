@@ -486,6 +486,10 @@
         text-align: center;
     }
 
+    .page .about h3 {
+        margin-top: 0;
+    }
+
 
     @media print {
         body {
