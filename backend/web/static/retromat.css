@@ -456,7 +456,7 @@
     }
 
     .team-photo,
-    .page-photo {
+    .page-pic {
         border: rgba(255, 255, 255, 1) 5px solid;
         margin-top: 3px;
         margin-right: 10px;
@@ -492,7 +492,7 @@
         font-weight: normal;
     }
 
-    .page-photo {
+    .page-pic {
         margin-right: 20px;
         margin-bottom: 20px;
     }
