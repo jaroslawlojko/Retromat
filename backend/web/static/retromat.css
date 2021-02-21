@@ -455,7 +455,8 @@
         font-weight: normal;
     }
 
-    .team-photo {
+    .team-photo,
+    .page-photo {
         border: rgba(255, 255, 255, 1) 5px solid;
         margin-top: 3px;
         margin-right: 10px;
@@ -486,8 +487,14 @@
         text-align: center;
     }
 
-    .page .about h3 {
+    .page h3 {
         margin-top: 0;
+        font-weight: normal;
+    }
+
+    .page-photo {
+        margin-right: 20px;
+        margin-bottom: 20px;
     }
 
 
