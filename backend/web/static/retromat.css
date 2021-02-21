@@ -178,6 +178,8 @@
 
     .plan-header .inner {
         display: flex;
+        overflow: hidden;
+        
         flex-direction: row; 
         flex-wrap: wrap; 
         align-items: center;
