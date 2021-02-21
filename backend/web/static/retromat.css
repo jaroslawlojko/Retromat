@@ -168,6 +168,12 @@
         border: 2px white solid; 
     }
 
+    .button-medium:hover {
+        background-color: orange; 
+        border-radius: 5px; 
+        border: 2px white solid; 
+    }
+
     .small-font {
         font-size: 0.8em;
     }
@@ -492,6 +498,18 @@
         margin-bottom: 10px;
         font-weight: normal;
         text-decoration: none;
+    }
+
+    .page .pitch h1 {
+        margin-top: 0;
+        font-size:1.2rem;
+        line-height: 1.3rem;
+    }
+
+    .page .pitch h2 {
+        margin-bottom: 0;
+        font-size:1.6rem;
+        line-height: 1.75rem;
     }
 
     .page .listing h2 {
