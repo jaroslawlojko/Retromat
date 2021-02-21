@@ -455,8 +455,7 @@
         font-weight: normal;
     }
 
-    .team-photo,
-    .page-pic {
+    .team-photo {
         border: rgba(255, 255, 255, 1) 5px solid;
         margin-top: 3px;
         margin-right: 10px;
@@ -489,13 +488,10 @@
 
     .page h3 {
         margin-top: 0;
+        margin-bottom: 10px;
         font-weight: normal;
     }
 
-    .page-pic {
-        margin-right: 20px;
-        margin-bottom: 20px;
-    }
 
 
     @media print {
