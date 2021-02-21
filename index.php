@@ -311,7 +311,7 @@ var PHASE_ID_TAG = 'phase';
 
     <div class="plan-header">
         <div class="content">
-            <div class="inner">
+            <div class="inner" style="overflow: hidden;">
                 <div class="ids-display">
                     <div class="print-header font-serif">
                         Retromat.org – by Corinna Baldauf
@@ -351,7 +351,7 @@ var PHASE_ID_TAG = 'phase';
                         </ul>
                     </div>
 
-                    <div class="plan-header-promo">
+                    <div class="plan-header-promo" style="overflow: hidden;">
                         <a href="/en/books" target="_blank">
                             <img src="/static/images/sponsors/ebook-retromat-sponsor.png" width="178" height="95" alt="Did you know there's are Retromat eBooks?">
                         </a>
