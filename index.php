@@ -365,31 +365,31 @@ var PHASE_ID_TAG = 'phase';
     <?php if (is_output_format_twig($argv)) { ?>
         {% include 'home/titles/planTitle.html.twig' %}
     <?php } else { ?>
-    <div class="js_plan_title_container plan-title display_none">
-        <div class="content">
-            <div class="inner">
-               <span class="js_fill_plan_title">Replaced by JS</span>
-           </div>
+        <div class="js_plan_title_container plan-title display_none">
+            <div class="content">
+                <div class="inner">
+                   <span class="js_fill_plan_title">Replaced by JS</span>
+               </div>
+            </div>
         </div>
-    </div>
     <?php } ?>
 
 
     <?php if (is_output_format_twig($argv)) { ?>
         {% include 'home/activities/activities.html.twig' %}
     <?php } else { ?>
-    <div class="js_plan">
-        <div class="bg1">
-            <div class="content">
-                <div class="inner">
-                    <?php echo($_lang['INDEX_LOADING']); ?>
-                    <noscript>
-                        <?php echo($_lang['ERROR_NO_SCRIPT']); ?>
-                    </noscript>
+        <div class="js_plan">
+            <div class="bg1">
+                <div class="content">
+                    <div class="inner">
+                        <?php echo($_lang['INDEX_LOADING']); ?>
+                        <noscript>
+                            <?php echo($_lang['ERROR_NO_SCRIPT']); ?>
+                        </noscript>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div><!-- END plan -->
+        </div><!-- END plan -->
     <?php } ?>
 
     <div class="js_activity_block_template js_activity_block display_none">
