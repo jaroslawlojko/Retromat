@@ -309,7 +309,7 @@ var PHASE_ID_TAG = 'phase';
         </div>
     </div>
 
-    <div class="plan-header" style="overflow: hidden;">
+    <div class="plan-header">
         <div class="content">
             <div class="inner">
                 <div class="ids-display">
