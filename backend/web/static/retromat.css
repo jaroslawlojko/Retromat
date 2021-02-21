@@ -194,10 +194,6 @@
         display: none;
     }
 
-    .display_block {
-        display: block;
-    }
-
     .ids-display {
         flex: 1;
     }
@@ -402,10 +398,6 @@
 
     .hidden {
         visibility: hidden;
-    }
-
-    .visible {
-        visibility: visible;
     }
 
     .activity_content h2 {
