@@ -269,11 +269,13 @@ function show_plan_title() {
 
 
 function hide_phase_stepper() {
+    $('.js_phase-stepper').removeClass('visible');
     $('.js_phase-stepper').addClass('hidden');
 }
 
 function show_phase_stepper() {
     $('.js_phase-stepper').removeClass('hidden');
+    $('.js_phase-stepper').addClass('visible');
 }
 
 function hide_plan_title() {
@@ -412,6 +414,7 @@ function focus_input_field(input_field) {
 
 function show_popup(popup_name) {
     $('.js_popup--' + popup_name).removeClass('display_none');
+    $('.js_popup--' + popup_name).addClass('display_block');
 
     var input = get_input_field(popup_name);
     reset_input_field(input);
@@ -419,6 +422,7 @@ function show_popup(popup_name) {
 }
 
 function hide_popup(popup_name) {
+    $('.js_popup--' + popup_name).removeClass('display_block');
     $('.js_popup--' + popup_name).addClass('display_none');
 }
 

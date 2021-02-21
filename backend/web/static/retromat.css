@@ -194,6 +194,10 @@
         display: none;
     }
 
+    .display_block {
+        display: block;
+    }
+
     .ids-display {
         flex: 1;
     }
@@ -400,6 +404,10 @@
         visibility: hidden;
     }
 
+    .visible {
+        visibility: visible;
+    }
+
     .activity_content h2 {
         font-weight: bold;
         font-size: 1.3rem;
@@ -490,6 +498,7 @@
         margin-top: 0;
         margin-bottom: 10px;
         font-weight: normal;
+        text-decoration: none;
     }
 
 
