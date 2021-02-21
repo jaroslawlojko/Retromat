@@ -482,6 +482,10 @@
         font-size: .85rem
     }
 
+    .page .pitch {
+        text-align: center;
+    }
+
 
     @media print {
         body {

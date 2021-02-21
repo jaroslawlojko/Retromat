@@ -6,7 +6,6 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
     <link rel="stylesheet" type="text/css" href="/static/retromat.css" />
-    <link rel="stylesheet" type="text/css" href="/print/styles.css" />
     <link rel="shortcut icon" href="/favicon.ico" />
 
     <!-- Matomo -->
@@ -26,27 +25,29 @@
     <!-- End Matomo Code -->
 </head>
 
-<body class="subpage">
+<body class="page">
 
 {% include 'topnavi.html.twig' ignore missing  %}
 
 <div class="pitch">
-    <div class="content" style="text-align: center">
-        Retromat Books
+    <div class="content">
+        <div class="inner">
+            Retromat Books
         </div>
+    </div>
 </div>
 
     <div class="bg3">
-        <div class="activity-wrapper">
-            <div class="activity-content">
+        <div class="content">
+            <div class="activity">
                 There are 3 Retromat books – 2 eBooks and 1 physical book. Let's see if one of them fits the bill for you and helps you reach the next level as a facilitator:
             </div>
         </div>
     </div>
 
     <div class="bg0">
-        <div class="activity-wrapper">
-            <div class="activity-content">
+        <div class="content">
+            <div class="activity">
                 <div style="display: flex">
                     <div style="justify-content: space-between">
                         <a href="{{ path('ebook') }}">
@@ -71,8 +72,8 @@
     </div>
 
     <div class="bg3">
-        <div class="activity-wrapper">
-            <div class="activity-content">
+        <div class="content">
+            <div class="activity">
                 <div style="display: flex">
                     <div style="justify-content: space-between">
                         <a href="{{ path('print') }}">
@@ -95,11 +96,9 @@
 
 <div class="about">
     <div class="content">
+        <div class="inner">
 
-        <h1>Any questions?</h1>
-    <br>
-        You can contact Corinna Baldauf via <a href="mailto:corinna@finding-marbles.com">email</a> or
-        <a href="https://www.twitter.com/findingmarbles">Twitter</a>.
+        </div>
     </div>
 </div>
 
