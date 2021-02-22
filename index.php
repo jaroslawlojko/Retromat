@@ -328,7 +328,7 @@ var PHASE_ID_TAG = 'phase';
                 </div>
                 
                 <div class="plan-header-inner-right">
-                    <div class="plan-navi">
+                    <div class="plan-navi" style="overflow: visible;">
                        <ul>
                             <li>
                                 <a class="plan-navi__random" title="<?php echo($_lang['INDEX_RANDOM_RETRO']); ?>" href="JavaScript:publish_random_plan()">
