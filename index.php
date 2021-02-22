@@ -298,12 +298,12 @@ var PHASE_ID_TAG = 'phase';
         <div class="content">
             <div class="inner">
                 There's a new Retromat book geared towards beginners!
-                <br><br>
+                
                 <a href="/blog/new-book-15-plans-for-retrospectives/"
                    class="button-medium" style="color: white">
                    Check out "Plans for Retrospectives"
                 </a>
-                <br><br>
+
                 (<a href="{{ path('print') }}" class="small-font">Looking for the Print Retromat?</a>)
             </div>
         </div>
