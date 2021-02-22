@@ -37,7 +37,7 @@ class HomeControllerTest extends WebTestCase
         $crawler = $client->request('GET', '/en/?id=32');
         $this->assertEquals(
             'Emoticon Project Gauge',
-            $crawler->filter('.js_activity_block')->eq(0)->filter('.js_fill_name')->html()
+            trim($crawler->filter('.js_activity_block')->eq(0)->filter('.js_fill_name')->html())
         );
 
         $crawler = $client->request('GET', '/en/?id=59');
