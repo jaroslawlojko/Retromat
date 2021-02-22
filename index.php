@@ -311,7 +311,7 @@ var PHASE_ID_TAG = 'phase';
 
     <div class="plan-header">
         <div class="content">
-            <div class="inner" style="overflow: hidden">
+            <div class="inner">
                 <div class="ids-display">
                     <div class="print-header font-serif">
                         Retromat.org – by Corinna Baldauf
@@ -328,7 +328,7 @@ var PHASE_ID_TAG = 'phase';
                 </div>
                 
                 <div class="plan-header-inner-right">
-                    <div class="plan-navi" style="overflow: visible;">
+                    <div class="plan-navi">
                        <ul>
                             <li>
                                 <a class="plan-navi__random" title="<?php echo($_lang['INDEX_RANDOM_RETRO']); ?>" href="JavaScript:publish_random_plan()">
@@ -339,7 +339,7 @@ var PHASE_ID_TAG = 'phase';
                                 <a class="plan-navi__search" title="<?php echo($_lang['INDEX_SEARCH_KEYWORD']); ?>" href="JavaScript:show_popup('search');">
                                     <?php echo($_lang['INDEX_SEARCH_KEYWORD']); ?>                       
                                 </a>
-                                <div class="js_popup--search popup--search popup">
+                                <div class="js_popup--search popup--search popup display_none">
                                     <form action="JavaScript:publish_activities_for_keywords($('.js_popup--search__input').val())" name="js_search_form" class="search_form">
                                         <input type="text" size="12" name="js_popup--search__input" class="js_popup--search__input popup__input" value="">
                                         <input type="submit" class="popup__submit" value="<?php echo($_lang['POPUP_SEARCH_BUTTON']); ?>">
