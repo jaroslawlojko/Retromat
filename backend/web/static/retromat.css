@@ -518,6 +518,7 @@
     }
 
     .page .pitch h2 {
+        margin-top: 10px;
         margin-bottom: 0;
         font-size: calc(20px + 2.5vw); 
         line-height: calc(20px + 2.6vw);
