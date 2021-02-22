@@ -497,6 +497,11 @@
         text-align: center;
     }
 
+    .page h2 {
+        margin-top: 0;
+        font-weight: normal;
+    }
+
     .page h3 {
         margin-top: 0;
         margin-bottom: 10px;
