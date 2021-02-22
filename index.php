@@ -311,7 +311,7 @@ var PHASE_ID_TAG = 'phase';
 
     <div class="plan-header">
         <div class="content">
-            <div class="inner">
+            <div class="inner" style="overflow: hidden">
                 <div class="ids-display">
                     <div class="print-header font-serif">
                         Retromat.org – by Corinna Baldauf
