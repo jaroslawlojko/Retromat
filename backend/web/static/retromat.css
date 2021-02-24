@@ -565,6 +565,10 @@
         flex-wrap: wrap;
     }
 
+    .sources table {
+        border-collapse: collapse;
+    }
+
     .sources tr {
         border-top: solid 1px #eee;
     }
