@@ -409,23 +409,20 @@ var PHASE_ID_TAG = 'phase';
 
                     <div class="js_item">
                         <h2 class="font-serif">
-                            <span class="js_fill_name">
-                            </span>
+                            <span class="js_fill_name"></span>
                             <span class="activity_id_wrapper">
                                     (<a class="js_fill_activity_link" href="#">#<span class="js_fill_id"></span></a>)
                             </span>
                         </h2>
                         <div class="summary">
-                            <span class="js_fill_summary">
-                            </span>
+                            <span class="js_fill_summary"></span>
                             <br>
                             <span class="source"><?php echo($_lang['ACTIVITY_SOURCE']) ?>
                                 <span class="js_fill_source"></span>
                             </span>
                         </div>
                         <div class="description">
-                            <span class="js_fill_description">
-                            </span>
+                            <span class="js_fill_description"></span>
                         </div>
                     </div><!-- END js_item -->
 
