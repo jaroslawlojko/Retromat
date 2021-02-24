@@ -565,6 +565,10 @@
         flex-wrap: wrap;
     }
 
+    .sources tr {
+        border-top: solid 1px #eee;
+    }
+
 
     @media print {
         body {
