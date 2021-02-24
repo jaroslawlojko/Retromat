@@ -565,7 +565,7 @@
         flex-wrap: wrap;
     }
 
-    .sources table {
+    table.sources {
         border-collapse: collapse;
     }
 
