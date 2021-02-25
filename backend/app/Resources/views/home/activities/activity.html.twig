@@ -15,26 +15,20 @@
 
                     <div class="js_item">
                         <h2 class="font-serif">
-                            <span class="js_fill_name">
-                                {{ activity.getName | raw }}
-                            </span>
+                            <span class="js_fill_name">{{ activity.getName | raw }}</span>
                             <span class="activity_id_wrapper">
                                     (<a class="js_fill_activity_link" href="?id={{ activity.getRetromatId }}">#<span class="js_fill_id">{{ activity.getRetromatId }}</span></a>)
                             </span>
                         </h2>
                         <div class="summary">
-                            <span class="js_fill_summary">
-                                {{ activity.getSummary | raw }}
-                            </span>
+                            <span class="js_fill_summary">{{ activity.getSummary | raw }}</span>
                             <br>
                              <span class="source">Source: 
                                 <span class="js_fill_source">{{ activity.getSource|raw }}</span>
                              </span>
                         </div>
                         <div class="description">
-                            <span class="js_fill_description">
-                                {{ activity.getDesc | raw }}
-                            </span>
+                            <span class="js_fill_description">{{ activity.getDesc | raw }}</span>
                         </div>
                     </div><!-- END js_item -->
 
