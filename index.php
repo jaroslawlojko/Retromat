@@ -353,7 +353,7 @@ var PHASE_ID_TAG = 'phase';
 
                     <div class="plan-header-promo">
                         <a href="/en/books" target="_blank">
-                            <img src="/static/images/sponsors/ebook-retromat-sponsor.png" width="178" height="95" alt="Did you know there's are Retromat eBooks?">
+                            <img src="/static/images/promo-ebook.jpg" width="132" height="95" alt="Did you know there are Retromat eBooks?">
                         </a>
                     </div>
                 </div>
