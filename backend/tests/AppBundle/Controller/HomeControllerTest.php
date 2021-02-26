@@ -37,13 +37,13 @@ class HomeControllerTest extends WebTestCase
         $crawler = $client->request('GET', '/en/?id=32');
         $this->assertEquals(
             'Emoticon Project Gauge',
-            trim($crawler->filter('.js_activity_block')->eq(0)->filter('.js_fill_name')->html())
+            $crawler->filter('.js_activity_block')->eq(0)->filter('.js_fill_name')->html()
         );
 
         $crawler = $client->request('GET', '/en/?id=59');
         $this->assertEquals(
             'Happiness Histogram',
-            trim($crawler->filter('.js_activity_block')->eq(0)->filter('.js_fill_name')->html())
+            $crawler->filter('.js_activity_block')->eq(0)->filter('.js_fill_name')->html()
         );
 
         $crawler = $client->request('GET', '/en/?id=80');
